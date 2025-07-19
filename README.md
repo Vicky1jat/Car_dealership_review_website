@@ -102,4 +102,8 @@ Car_dealership_review_website/
       
       IBM Full Stack Software Developer Capstone
 
+### 🖼 UI Preview
 
+| Hero | Editor & Interaction | Footer |
+|------|----------------------|--------|
+| ![Hero](asset/hero.png.png) | ![Editor](asset/middle.png.png) | ![Footer](asset/footer.png.png) |
