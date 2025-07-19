@@ -106,4 +106,4 @@ Car_dealership_review_website/
 
 | Hero | Editor & Interaction | Footer |
 |------|----------------------|--------|
-| ![Hero](asset/hero.png.png) | ![Editor](asset/middle.png.png) | ![Footer](asset/footer.png.png) |
+| ![Homepage](screenshots/homepage.png) | ![Dealers](screenshots/get_dealers.png) | ![Review](screenshots/added_review.png) |
