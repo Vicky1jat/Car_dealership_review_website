@@ -51,7 +51,55 @@ Car_dealership_review_website/
 
 ### 1. Clone the Repository
 
-```bash
-git clone https://github.com/yourusername/Car_dealership_review_website.git
-cd Car_dealership_review_website
+    ```bash
+      git clone https://github.com/yourusername/Car_dealership_review_website.git
+      cd Car_dealership_review_website
+
+
+### 2. Backend (Django)
+    bash
+    Copy code
+    cd server
+    python3 -m venv djangoenv
+    source djangoenv/bin/activate
+    pip install -r requirements.txt
+    
+    # Migrate database
+    python manage.py makemigrations
+    python manage.py migrate
+    
+    # Run server
+    python manage.py runserver
+
+###3. Node.js Microservice
+
+      cd server/database
+      npm install
+      node app.js
+
+       if containerized: 
+        bash
+        Copy code
+        docker-compose up
+
+### 4. Frontend (React)
+
+      cd server/frontend
+      npm install
+      npm start
+
+
+🐳 Docker (Alternative)
+
+     To run everything in containers:
+   
+      # From project root
+      docker build -t dealership-app .
+      docker run -p 8000:8000 dealership-app
+
+
+💡 Acknowledgments
+      
+      IBM Full Stack Software Developer Capstone
+
 
