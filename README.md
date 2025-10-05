@@ -1,7 +1,7 @@
 # 🚗 Car Dealership Review Website
 
 A full-stack web application for users to view, review, and rate car dealerships. The platform integrates a Django-based backend, a React frontend, and a Node.js microservice connected to MongoDB for dealer data.
-
+```
 ## 📦 Project Structure
 
 Car_dealership_review_website/
@@ -20,7 +20,7 @@ Car_dealership_review_website/
 ├── .gitignore
 └── README.md
 
-
+```
 ---
 
 ## 🛠️ Features
